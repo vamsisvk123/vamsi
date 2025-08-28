@@ -36,7 +36,7 @@ const Hero: React.FC<HeroProps> = ({ isLoaded, onScrollToSection }) => {
             className="cta-button secondary"
             onClick={() => {
               const link = document.createElement('a');
-              link.href = '/Vamsi_Krishna_Resume.pdf';
+              link.href = '/vamsi/Vamsi_Krishna_Resume.pdf';
               link.download = 'Vamsi_Krishna_Resume.pdf';
               document.body.appendChild(link);
               link.click();
