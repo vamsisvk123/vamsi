@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Education } from '../types';
 import semoLogo from '../assets/semo.png';
 import pbrVitsLogo from '../assets/PBR vits.png';
