@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Experience } from '../types';
 import carelonLogo from '../assets/carelon.png';
 import softsuaveLogo from '../assets/softsuave.png';
