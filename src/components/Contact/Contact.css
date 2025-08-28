@@ -40,10 +40,13 @@
   gap: 1rem;
   color: var(--text-secondary);
   transition: var(--transition);
+  text-decoration: none;
+   margin-left: 8px;
 }
 
 .contact-item:hover {
   color: var(--text-primary);
+  text-decoration: underline;
 }
 
 .contact-form {
