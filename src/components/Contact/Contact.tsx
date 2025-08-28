@@ -1,5 +1,5 @@
 import React, { useState, FormEvent } from 'react';
-import { Mail, Github, Linkedin, Heart } from 'lucide-react';
+import { Mail, Github, Linkedin } from 'lucide-react';
 import emailjs from 'emailjs-com';
 import { contactInfo } from '../../data/contact';
 import './Contact.css';
