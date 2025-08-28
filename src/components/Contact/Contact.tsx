@@ -77,19 +77,25 @@ const Contact: React.FC = () => {
               amazing people. Let's create something incredible together!
             </p>
             <div className="contact-details">
-              <div className="contact-item">
-                <Mail size={20} />
-                <span>{contactInfo.email}</span>
-              </div>
-              <div className="contact-item">
-                <Github size={20} />
-                <span>{contactInfo.github}</span>
-              </div>
-              <div className="contact-item">
-                <Linkedin size={20} />
-                <span>{contactInfo.linkedin}</span>
-              </div>
-            </div>
+  <div className="contact-item">
+    <Mail size={20} />
+    <a href={`mailto:${contactInfo.email}`} target="_blank" rel="noopener noreferrer">
+      {contactInfo.email}
+    </a>
+  </div>
+  <div className="contact-item">
+    <Github size={20} />
+    <a href={`https://${contactInfo.github}`} target="_blank" rel="noopener noreferrer">
+      github.com/vamsikrishna
+    </a>
+  </div>
+  <div className="contact-item">
+    <Linkedin size={20} />
+    <a href={`https://${contactInfo.linkedin}`} target="_blank" rel="noopener noreferrer">
+      linkedin.com/in/vamsikrishna
+    </a>
+  </div>
+</div>
           </div>
           <div className="contact-form">
             <form onSubmit={handleSubmit}>
