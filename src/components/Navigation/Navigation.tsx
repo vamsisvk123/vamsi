@@ -15,7 +15,7 @@ const Navigation: React.FC<NavigationProps> = ({
 
   const handleLogoClick = () => {
     // Navigate to dashboard - you can replace this with your actual dashboard route
-    window.location.href = '/dashboard';
+    window.location.href = '/vamsi/dashboard';
   };
 
   const handleNavClick = (section: string) => {

@@ -41,7 +41,7 @@
       rgba(244, 114, 182, 0.08) 0%,
       transparent 50%
     );
-  animation: backgroundShift 20s ease-in-out infinite;
+  animation: backgroundShift 90s ease-in-out infinite;
   z-index: 0;
 }
 
@@ -58,7 +58,7 @@
     transparent 70%
   );
   border-radius: 50%;
-  animation: float 15s ease-in-out infinite;
+  animation: float 60s ease-in-out infinite;
   z-index: 0;
 }
 

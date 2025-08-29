@@ -15,7 +15,7 @@ const Hero: React.FC<HeroProps> = ({ isLoaded, onScrollToSection }) => {
           <span className="title-line" style={{ color: 'white' }}>
             Hi, I'm
           </span>
-          <span className="title-line gradient-text">Vamsikrishna</span>
+          <span className="title-line gradient-text">Vamsi Krishna</span>
         </h1>
         <p className="hero-subtitle">
           <span className="typing-text">Software Developer</span>
